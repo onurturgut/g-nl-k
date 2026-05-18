@@ -2,6 +2,7 @@ import { Settings } from 'lucide-react';
 import NotificationSettings from '@/components/NotificationSettings';
 import PwaStatus from '@/components/PwaStatus';
 import AuthStatus from '@/components/AuthStatus';
+import ThemeSelector from '@/components/theme/theme-selector';
 
 export default function SettingsPanel() {
   return (
@@ -15,6 +16,7 @@ export default function SettingsPanel() {
           </div>
         </div>
       </section>
+      <ThemeSelector />
       <AuthStatus />
       <PwaStatus />
       <NotificationSettings />
